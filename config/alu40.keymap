@@ -24,57 +24,57 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        tab {
             bindings = <&kp TAB>;
             key-positions = <0 12>;
         };
 
-        new_combo {
+        layer1 {
             bindings = <&mo 1>;
             key-positions = <40 41>;
         };
 
-        new_combo {
+        layer2 {
             bindings = <&mo 2>;
             key-positions = <42 43>;
         };
 
-        new_combo {
+        layer3 {
             bindings = <&mo 3>;
             key-positions = <41 42>;
         };
 
-        new_combo {
+        pageup {
             bindings = <&kp PAGE_UP>;
             key-positions = <33 45>;
         };
 
-        new_combo {
+        pagedn {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <46 34>;
         };
 
-        new_combo {
+        home {
             bindings = <&kp HOME>;
             key-positions = <46 45>;
         };
 
-        new_combo {
+        end {
             bindings = <&kp END>;
             key-positions = <47 46>;
         };
 
-        new_combo {
+        volup {
             bindings = <&kp C_VOLUME_UP>;
             key-positions = <23 35>;
         };
 
-        new_combo {
+        voldn {
             bindings = <&kp C_VOL_DN>;
             key-positions = <35 47>;
         };
 
-        new_combo {
+        mute {
             bindings = <&kp C_MUTE>;
             key-positions = <11 23>;
         };
