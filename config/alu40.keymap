@@ -56,12 +56,12 @@
 
         home {
             bindings = <&kp HOME>;
-            key-positions = <46 45>;
+            key-positions = <33 34>;
         };
 
         end {
             bindings = <&kp END>;
-            key-positions = <47 46>;
+            key-positions = <46 45>;
         };
 
         volup {
@@ -77,6 +77,21 @@
         mute {
             bindings = <&kp C_MUTE>;
             key-positions = <11 23>;
+        };
+
+        shifttab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <24 12>;
+        };
+
+        tableft {
+            bindings = <&kp LC(LS(TAB))>;
+            key-positions = <44 45>;
+        };
+
+        tabright {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <47 46>;
         };
     };
 
