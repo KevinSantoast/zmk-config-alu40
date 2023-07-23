@@ -108,6 +108,16 @@
             bindings = <&kp C_NEXT>;
             key-positions = <47 35>;
         };
+
+        brightnessup {
+            bindings = <&kp C_BRIGHTNESS_INC>;
+            key-positions = <47 46>;
+        };
+
+        brightnessdn {
+            bindings = <&kp C_BRIGHTNESS_DEC>;
+            key-positions = <45 44>;
+        };
     };
 
     keymap {
