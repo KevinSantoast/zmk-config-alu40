@@ -24,7 +24,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <0 12>;
+            key-positions = <0 12 11>;
         };
 
         layer1 {
@@ -79,7 +79,7 @@
 
         shifttab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <24 12>;
+            key-positions = <12 0>;
         };
 
         tableft {
@@ -109,12 +109,17 @@
 
         brightnessup {
             bindings = <&kp C_BRIGHTNESS_INC>;
-            key-positions = <47 46>;
+            key-positions = <46 45>;
         };
 
         brightnessdn {
             bindings = <&kp C_BRIGHTNESS_DEC>;
-            key-positions = <45 46>;
+            key-positions = <45 44>;
+        };
+
+        screenshot {
+            bindings = <&kp LG(LS(S))>;
+            key-positions = <0 1>;
         };
     };
 
@@ -129,10 +134,10 @@
             // | PLAY  | LCTL | LALT | LGUI | LOWR |     SPACE    |  RAIS | LARW | UARW | DARW  |  RARW |
 
             bindings = <
-&kp TAB           &kp Q                 &kp W         &kp E  &kp R      &kp T  &kp Y  &kp U          &kp I      &kp O          &kp P         &goback
-&kp LEFT_CONTROL  &kp A                 &kp S         &kp D  &kp F      &kp G  &kp H  &kp J          &kp K      &kp L          &kp SEMI      &kp SQT
-&kp LSHFT         &kp Z                 &kp X         &kp C  &kp V      &kp B  &kp N  &kp M          &kp COMMA  &kp DOT        &kp FSLH      &mt RSHFT RET
-&kp ESCAPE        &kp LC(LS(LEFT_WIN))  &kp LEFT_ALT  &mo 1  &kp SPACE  &none  &none  &kp BACKSPACE  &mo 2      &kp RIGHT_WIN  &kp C_VOL_DN  &kp C_VOLUME_UP
+&kp TAB           &kp Q         &kp W         &kp E  &kp R      &kp T  &kp Y  &kp U          &kp I      &kp O                  &kp P         &goback
+&kp LEFT_CONTROL  &kp A         &kp S         &kp D  &kp F      &kp G  &kp H  &kp J          &kp K      &kp L                  &kp SEMI      &kp SQT
+&kp LSHFT         &kp Z         &kp X         &kp C  &kp V      &kp B  &kp N  &kp M          &kp COMMA  &kp DOT                &kp FSLH      &mt RSHFT RET
+&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &mo 1  &kp SPACE  &none  &none  &kp BACKSPACE  &mo 2      &kp LS(LC(RIGHT_WIN))  &kp C_VOL_DN  &kp C_VOLUME_UP
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
