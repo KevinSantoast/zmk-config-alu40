@@ -119,12 +119,32 @@
 
         screenshot {
             bindings = <&kp LG(LS(S))>;
-            key-positions = <0 1>;
+            key-positions = <11 10>;
         };
 
         bootloader {
             bindings = <&bootloader>;
             key-positions = <0 11 47 36>;
+        };
+
+        up {
+            bindings = <&kp UP>;
+            key-positions = <2 14>;
+        };
+
+        down {
+            bindings = <&kp DOWN>;
+            key-positions = <14 26>;
+        };
+
+        left {
+            bindings = <&kp LEFT>;
+            key-positions = <13 14>;
+        };
+
+        right {
+            bindings = <&kp RIGHT>;
+            key-positions = <14 15>;
         };
     };
 
