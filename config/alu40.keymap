@@ -39,7 +39,7 @@
 
         layer3 {
             bindings = <&mo 3>;
-            key-positions = <39 44>;
+            key-positions = <40 43>;
         };
 
         pageup {
