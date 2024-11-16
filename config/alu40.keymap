@@ -24,7 +24,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <0 1 11>;
+            key-positions = <21 32>;
             timeout-ms = <10>;
         };
 
@@ -57,13 +57,13 @@
 
         home {
             bindings = <&kp HOME>;
-            key-positions = <1 2 3 11>;
+            key-positions = <34 32>;
             timeout-ms = <25>;
         };
 
         end {
             bindings = <&kp END>;
-            key-positions = <14 13 15 11>;
+            key-positions = <34 20>;
             timeout-ms = <25>;
         };
 
@@ -90,12 +90,12 @@
 
         tableft {
             bindings = <&kp LC(LS(TAB))>;
-            key-positions = <2 1 11>;
+            key-positions = <34 33 21>;
         };
 
         tabright {
             bindings = <&kp LC(TAB)>;
-            key-positions = <2 3 11>;
+            key-positions = <34 21>;
         };
 
         playpause {
@@ -135,91 +135,91 @@
 
         up {
             bindings = <&kp UP>;
-            key-positions = <2 14 11>;
+            key-positions = <2 14 21>;
         };
 
         down {
             bindings = <&kp DOWN>;
-            key-positions = <14 26 11>;
+            key-positions = <14 26 21>;
         };
 
         left {
             bindings = <&kp LEFT>;
-            key-positions = <11 13>;
+            key-positions = <13 21>;
         };
 
         right {
             bindings = <&kp RIGHT>;
-            key-positions = <15 11>;
+            key-positions = <15 33>;
         };
 
         n1 {
             bindings = <&kp NUMBER_1>;
             key-positions = <1 0>;
-            timeout-ms = <10>;
+            timeout-ms = <15>;
             layers = <0>;
         };
 
         n2 {
             bindings = <&kp NUMBER_2>;
             key-positions = <2 1>;
-            timeout-ms = <10>;
+            timeout-ms = <15>;
             layers = <0>;
         };
 
         n3 {
             bindings = <&kp NUMBER_3>;
             key-positions = <3 2>;
-            timeout-ms = <10>;
+            timeout-ms = <15>;
             layers = <0>;
         };
 
         n4 {
             bindings = <&kp NUMBER_4>;
             key-positions = <3 4>;
-            timeout-ms = <10>;
+            timeout-ms = <15>;
             layers = <0>;
         };
 
         n5 {
             bindings = <&kp N5>;
             key-positions = <12 13>;
-            timeout-ms = <10>;
+            timeout-ms = <15>;
             layers = <0>;
         };
 
         n6 {
             bindings = <&kp NUMBER_6>;
             key-positions = <13 14>;
-            timeout-ms = <10>;
+            timeout-ms = <15>;
             layers = <0>;
         };
 
         n7 {
             bindings = <&kp N7>;
             key-positions = <14 15>;
-            timeout-ms = <10>;
+            timeout-ms = <15>;
             layers = <0>;
         };
 
         n8 {
             bindings = <&kp N8>;
             key-positions = <15 16>;
-            timeout-ms = <10>;
+            timeout-ms = <15>;
             layers = <0>;
         };
 
         n9 {
             bindings = <&kp N9>;
             key-positions = <24 25>;
-            timeout-ms = <10>;
+            timeout-ms = <15>;
             layers = <0>;
         };
 
         n0 {
             bindings = <&kp N0>;
             key-positions = <25 26>;
-            timeout-ms = <10>;
+            timeout-ms = <15>;
             layers = <0>;
         };
     };
