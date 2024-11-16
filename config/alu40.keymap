@@ -55,11 +55,13 @@
         home {
             bindings = <&kp HOME>;
             key-positions = <1 2 3>;
+            timeout-ms = <25>;
         };
 
         end {
             bindings = <&kp END>;
             key-positions = <14 13 15>;
+            timeout-ms = <25>;
         };
 
         volup {
@@ -145,6 +147,30 @@
         right {
             bindings = <&kp RIGHT>;
             key-positions = <14 15>;
+        };
+
+        n1 {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <13 12>;
+            timeout-ms = <25>;
+        };
+
+        n2 {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <13 14>;
+            timeout-ms = <25>;
+        };
+
+        n3 {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <14 15>;
+            timeout-ms = <25>;
+        };
+
+        n4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <15 16>;
+            timeout-ms = <25>;
         };
     };
 
