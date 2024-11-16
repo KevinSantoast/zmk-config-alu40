@@ -22,12 +22,6 @@
     combos {
         compatible = "zmk,combos";
 
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <21 32>;
-            timeout-ms = <10>;
-        };
-
         layer1 {
             bindings = <&mo 1>;
             key-positions = <40 4>;
@@ -46,35 +40,13 @@
         pageup {
             bindings = <&kp PAGE_UP>;
             key-positions = <3 15>;
-            timeout-ms = <10>;
+            timeout-ms = <15>;
         };
 
         pagedn {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <1 13>;
-            timeout-ms = <10>;
-        };
-
-        home {
-            bindings = <&kp HOME>;
-            key-positions = <34 32>;
-            timeout-ms = <25>;
-        };
-
-        end {
-            bindings = <&kp END>;
-            key-positions = <34 20>;
-            timeout-ms = <25>;
-        };
-
-        volup {
-            bindings = <&kp C_VOLUME_UP>;
-            key-positions = <23 35 37>;
-        };
-
-        voldn {
-            bindings = <&kp C_VOL_DN>;
-            key-positions = <36 35 47>;
+            timeout-ms = <15>;
         };
 
         mute {
@@ -85,17 +57,7 @@
         shifttab {
             bindings = <&kp LS(TAB)>;
             key-positions = <12 0>;
-            timeout-ms = <10>;
-        };
-
-        tableft {
-            bindings = <&kp LC(LS(TAB))>;
-            key-positions = <34 33 21>;
-        };
-
-        tabright {
-            bindings = <&kp LC(TAB)>;
-            key-positions = <34 21>;
+            timeout-ms = <15>;
         };
 
         playpause {
@@ -131,26 +93,6 @@
         bootloader {
             bindings = <&bootloader>;
             key-positions = <0 11 47 36>;
-        };
-
-        up {
-            bindings = <&kp UP>;
-            key-positions = <2 14 21>;
-        };
-
-        down {
-            bindings = <&kp DOWN>;
-            key-positions = <14 26 21>;
-        };
-
-        left {
-            bindings = <&kp LEFT>;
-            key-positions = <13 21>;
-        };
-
-        right {
-            bindings = <&kp RIGHT>;
-            key-positions = <15 33>;
         };
 
         n1 {
@@ -222,6 +164,41 @@
             timeout-ms = <15>;
             layers = <0>;
         };
+
+        f1 {
+            bindings = <&kp F1>;
+            key-positions = <1 0>;
+            timeout-ms = <15>;
+            layers = <1>;
+        };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <2 1>;
+            timeout-ms = <15>;
+            layers = <1>;
+        };
+
+        f3 {
+            bindings = <&kp F3>;
+            key-positions = <3 2>;
+            timeout-ms = <15>;
+            layers = <1>;
+        };
+
+        f4 {
+            bindings = <&kp F4>;
+            key-positions = <3 4>;
+            timeout-ms = <15>;
+            layers = <1>;
+        };
+
+        f5 {
+            bindings = <&kp F5>;
+            key-positions = <12 13>;
+            timeout-ms = <15>;
+            layers = <1>;
+        };
     };
 
     keymap {
@@ -246,10 +223,10 @@
 
         lower {
             bindings = <
-&kp LS(GRAVE)  &kp N1       &kp N2    &kp N3      &kp N4       &kp N5    &kp N6        &kp N7        &kp N8        &kp N9            &kp N0             &kp DEL
-&kp ENTER      &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPS  &kp ASTERISK  &kp KP_MINUS  &kp PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
-&trans         &trans       &trans    &trans      &trans       &trans    &kp CARET     &kp UNDER     &kp KP_EQUAL  &trans            &kp EXCLAMATION    &trans
-&trans         &trans       &trans    &trans      &trans       &trans    &trans        &trans        &trans        &trans            &trans             &trans
+&kp LS(GRAVE)  &kp HOME  &kp UP    &kp END     &kp N4       &kp N5    &kp N6        &kp N7        &kp N8        &kp N9            &kp N0             &kp DEL
+&kp ENTER      &kp LEFT  &kp DOWN  &kp RIGHT   &kp PERCENT  &kp AMPS  &kp ASTERISK  &kp KP_MINUS  &kp PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
+&trans         &kp AT    &kp HASH  &kp DOLLAR  &trans       &trans    &kp CARET     &kp UNDER     &kp KP_EQUAL  &trans            &kp EXCLAMATION    &trans
+&trans         &trans    &trans    &trans      &trans       &trans    &trans        &trans        &trans        &trans            &trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
