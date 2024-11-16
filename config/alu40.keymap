@@ -145,12 +145,12 @@
 
         left {
             bindings = <&kp LEFT>;
-            key-positions = <13 14 11>;
+            key-positions = <11 13>;
         };
 
         right {
             bindings = <&kp RIGHT>;
-            key-positions = <14 15 11>;
+            key-positions = <15 11>;
         };
 
         n1 {
