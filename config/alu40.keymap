@@ -199,6 +199,55 @@
             timeout-ms = <15>;
             layers = <1>;
         };
+
+        f6 {
+            bindings = <&kp F6>;
+            key-positions = <13 14>;
+            timeout-ms = <15>;
+            layers = <1>;
+        };
+
+        f7 {
+            bindings = <&kp F7>;
+            key-positions = <14 15>;
+            timeout-ms = <15>;
+            layers = <1>;
+        };
+
+        f8 {
+            bindings = <&kp F8>;
+            key-positions = <15 16>;
+            timeout-ms = <15>;
+            layers = <1>;
+        };
+
+        f9 {
+            bindings = <&kp F9>;
+            key-positions = <24 25>;
+            timeout-ms = <15>;
+            layers = <1>;
+        };
+
+        f10 {
+            bindings = <&kp F10>;
+            key-positions = <25 26>;
+            timeout-ms = <15>;
+            layers = <1>;
+        };
+
+        f11 {
+            bindings = <&kp F11>;
+            key-positions = <26 27>;
+            timeout-ms = <15>;
+            layers = <1>;
+        };
+
+        f12 {
+            bindings = <&kp F12>;
+            key-positions = <28 27>;
+            timeout-ms = <15>;
+            layers = <1>;
+        };
     };
 
     keymap {
@@ -223,7 +272,7 @@
 
         lower {
             bindings = <
-&kp LS(GRAVE)  &kp HOME  &kp UP    &kp END     &kp N4       &kp N5    &kp N6        &kp N7        &kp N8        &kp N9            &kp N0             &kp DEL
+&kp LS(GRAVE)  &kp HOME  &kp UP    &kp END     &trans       &trans    &trans        &trans        &trans        &trans            &trans             &kp DEL
 &kp ENTER      &kp LEFT  &kp DOWN  &kp RIGHT   &kp PERCENT  &kp AMPS  &kp ASTERISK  &kp KP_MINUS  &kp PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
 &trans         &kp AT    &kp HASH  &kp DOLLAR  &trans       &trans    &kp CARET     &kp UNDER     &kp KP_EQUAL  &trans            &kp EXCLAMATION    &trans
 &trans         &trans    &trans    &trans      &trans       &trans    &trans        &trans        &trans        &trans            &trans             &trans
