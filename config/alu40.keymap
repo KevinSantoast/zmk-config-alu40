@@ -272,10 +272,10 @@
 
         lower {
             bindings = <
-&kp LS(GRAVE)  &kp HOME  &kp UP    &kp END     &trans       &trans    &trans        &trans        &trans        &trans            &trans             &kp DEL
-&kp ENTER      &kp LEFT  &kp DOWN  &kp RIGHT   &kp PERCENT  &kp AMPS  &kp ASTERISK  &kp KP_MINUS  &kp PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
-&trans         &kp AT    &kp HASH  &kp DOLLAR  &trans       &trans    &kp CARET     &kp UNDER     &kp KP_EQUAL  &trans            &kp EXCLAMATION    &trans
-&trans         &trans    &trans    &trans      &trans       &trans    &trans        &trans        &trans        &trans            &trans             &trans
+&kp GRAVE  &kp HOME  &kp UP    &kp END     &kp PAGE_UP    &kp INS        &kp STAR   &kp MINUS  &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&kp ENTER  &kp LEFT  &kp DOWN  &kp RIGHT   &kp PAGE_DOWN  &kp DEL        &kp CARET  &kp UNDER  &kp EQUAL  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
+&trans     &kp AT    &kp HASH  &kp DOLLAR  &kp PERCENT    &kp AMPERSAND  &trans     &trans     &trans     &trans                &kp EXCLAMATION        &trans
+&trans     &trans    &trans    &trans      &trans         &trans         &trans     &kp DEL    &trans     &trans                &trans                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
@@ -283,10 +283,10 @@
 
         raise {
             bindings = <
-&kp F11  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7     &kp F8     &kp F9                &kp F10                &kp F12
-&trans   &trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH
-&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans                &trans                 &trans
-&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans                &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;
